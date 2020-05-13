@@ -1,0 +1,176 @@
+/* GENERAL STYLING */
+
+body {
+  background: #2C3E50;
+  background: -webkit-linear-gradient(to top, #FD746C, #2C3E50);
+  background: linear-gradient(to top, #FD746C, #2C3E50);
+  font-family: 'Open Sans', sans-serif;
+}
+/* source : https://uigradients.com/#Dusk */
+
+#page-content {
+  margin-left: 120px;
+}
+
+.container {
+  width: 90%;
+}
+
+h1 {
+  font-size: 26px;
+  font-family: ;
+  color: #c11258;
+}
+
+h2 {
+  font-size: 20px;
+  font-family: ;
+  color: #c75b78;
+  padding-bottom: 15px;
+}
+
+a {
+  color: #c11258;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #381315;
+  text-decoration: none;
+}
+
+p {
+  color: #5f2956;
+}
+
+/* SIDEBAR */
+
+#sidebar {
+  position: fixed;
+  width: 300px;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  width: 120px;
+  text-align: center;
+  background-color: #383F52;
+}
+
+#sidebar > ul {
+  padding-left: 0;
+}
+
+.fa-user-circle, .fa-facebook-square, .fa-film, .fa-info-circle {
+  color: white;
+  font-size: 40px;
+  padding-top: 40px;
+}
+
+.hover-pink:hover {
+  color: #c11258;
+}
+
+/* REUSABLE CLASSES */
+
+.text-center {
+  text-align: center;
+}
+
+.movie-title {
+  color: white;
+}
+
+.list-unstyled {
+  list-style: none;
+}
+
+.list-inline > li {
+  display: inline-block;
+  padding: 10px 20px 10px 20px;
+}
+
+.list-inline {
+  padding-left: 0px;
+}
+
+.container {
+  width: 800px;
+  margin: 0 auto; /* This automatically sets left/right margins */
+}
+
+/* CARDS */
+
+  /* CARDS - GENERAL STYLING */
+
+.card {
+  padding: 20px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  border-radius: 5px;
+}
+
+.card-white {
+  background: white;
+}
+
+/* FIRST CARD : BRIEF PRESENTATION */
+
+#profile-picture {
+  width: 200px;
+  text-align: center;
+}
+
+.img-circle {
+  border-radius: 50%;
+
+}
+
+/* THIRD CARD : FAVORITE MOVIES */
+
+.movie-description {
+  text-align: justify;
+  padding-left: 15px;
+}
+
+
+img {
+  width: 400px;
+  border-radius: 5px;
+  margin-bottom: 20px;
+}
+
+
+tr {
+  padding-bottom: 15px;
+}
+
+/* MEDIA QUERIES */
+
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 700px;
+  }
+  img {
+    width: 500px;
+  }
+}
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 500px;
+  }
+  img {
+    width: 400px;
+  }
+}
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 300px;
+  }
+  img {
+    width: 200px;
+  }
+}
+
